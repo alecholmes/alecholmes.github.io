@@ -136,7 +136,7 @@ function drawHistogram(values) {
   
   var margin = {top: 10, right: 30, bottom: 50, left: 30},
       width = parseInt(d3.select("#histogram").style("width")) - margin.left - margin.right,
-      height = $( window ).height() - $( "#navbar" ).height() - $( "#segment" ).outerHeight(true) - margin.top - margin.bottom - 10;
+      height = $( window ).height() - $( ".navbar" ).height() - $( "#segment" ).outerHeight(true) - margin.top - margin.bottom - 10;
   
   var x = d3.scale.linear()
       .domain([dataMin, dataMax])
