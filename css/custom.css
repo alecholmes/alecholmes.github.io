@@ -1,0 +1,14 @@
+.subsection-header {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	letter-spacing: .2rem;
+	font-weight: 600;
+}
+
+.section-header {
+	text-transform: uppercase;
+	font-size: 1.75rem;
+	letter-spacing: .2rem;
+	font-weight: 600;
+}
+
